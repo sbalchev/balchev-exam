@@ -5,5 +5,5 @@ test('Check header', async ({ page }) => {
     const homeLink = await page.$('a[href="/"]');
     const text = await homeLink.textContent();
     expect(text).toBe('Home');
-  });
+  }); 
   
